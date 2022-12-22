@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_gravity="center"
+    android:gravity="center"
     tools:context=".MainActivity">
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,10 +15,27 @@
         android:layout_gravity="center"
         android:textAlignment="center"
         android:width="220dp"
-        android:textSize="52sp" />
+        android:textSize="52sp"/>
     <EditText
+        android:background="@drawable/edittextbackground"
+        android:layout_gravity="center"
         android:layout_width="336dp"
         android:layout_height="55dp"
-
         />
+    <EditText
+        android:background="@drawable/edittextbackground"
+        android:layout_gravity="center"
+        android:layout_width="336dp"
+        android:layout_height="55dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="@string/don_have_an_account"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 </LinearLayout>
